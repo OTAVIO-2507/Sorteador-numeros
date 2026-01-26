@@ -1,6 +1,6 @@
 # 🎲 Aplicação de Sorteio de Números
 
-Uma aplicação web simples para sortear números aleatórios dentro de um intervalo definido. O projeto foi desenvolvido com HTML, CSS e JavaScript, utilizando a metodologia Mobile First para garantir que a interface seja responsiva em dispositivos móveis.
+Uma aplicação web simples para sortear números aleatórios dentro de um intervalo definido. O projeto foi desenvolvido com HTML, CSS e JavaScript.
 
 ## 🌐 Visualize o projeto:
 
