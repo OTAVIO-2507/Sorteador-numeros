@@ -4,22 +4,21 @@ Uma aplicação web simples para sortear números aleatórios dentro de um inter
 
 ## 🌐 Visualize o projeto:
 
-Ver Projeto Online
- (Substitua pelo link do seu projeto)
+**[Ver Projeto Online](https://otavio-2507.github.io/Starbucks/)**)
 
 ## 🛠️ Tecnologias Utilizadas
 
 O projeto foi construído com as seguintes ferramentas e tecnologias:
-- HTML5: Estrutura semântica para a página
-- CSS3: Estilização e media queries para responsividade
-- JavaScript: Funcionalidade interativa para gerar números aleatórios, validação de campos e animações de transição
-- Font Awesome: Ícones (se utilizado)
-- Google Fonts: Fontes customizadas para uma melhor experiência visual
+- **HTML5**: Estrutura semântica para a página
+- **CSS3**: Estilização e media queries para responsividade
+- **JavaScript**: Funcionalidade interativa para gerar números aleatórios, validação de campos e animações de transição
+- **Font Awesome**: Ícones (se utilizado)
+- **Google Fonts**: Fontes customizadas para uma melhor experiência visual
 
 ## 🚀 Como Começar
 
 1. Clone ou baixe os arquivos do projeto para sua máquina local.
-2. Abra o arquivo index.html no seu navegador.
+2. Abra o arquivo `index.html` no seu navegador.
 3. Não é necessária configuração adicional — todas as dependências externas são carregadas via CDN.
 
 ## 📦 Como Funciona
