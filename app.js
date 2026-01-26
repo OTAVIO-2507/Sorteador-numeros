@@ -3,6 +3,11 @@ function sortear(){
     let de = parseInt(document.getElementById('de').value);
     let ate = parseInt(document.getElementById('ate').value);
 
+    if (de >= ate){
+        alert('Campo "Do número" deve ser inferior ao campo "Aé o número". Verifique!');
+        return;
+    }
+
     let sorteados = [];
     let numero;
 
@@ -32,7 +37,7 @@ function alterarStatusBotao(){
         botao.classList.add('container__botao');
     } else {
         botao.classList.remove('container__botao');
-        botao.classList.add('container__botao-desabilitado');  
+        botao.classList.add('container__botao-desabilitado'); 
     }        
 }
 
