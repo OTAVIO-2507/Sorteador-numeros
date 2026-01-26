@@ -33,3 +33,7 @@ O projeto foi construído com as seguintes ferramentas e tecnologias:
 - Validação de Entradas: Verifica se os valores inseridos são válidos.
 - Botão de Reiniciar: Permite ao usuário reiniciar o sorteio e limpar os campos de entrada.
 - Animações Suaves: Transições suaves ao interagir com a página.
+
+## 📚 Estudo Alura
+
+- Este projeto foi desenvolvido como parte de um estudo da Alura, focado em aprimorar minhas habilidades em JavaScript e desenvolvimento web e Lógica de Programação.
