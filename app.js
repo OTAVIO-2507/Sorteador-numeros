@@ -4,7 +4,12 @@ function sortear(){
     let ate = parseInt(document.getElementById('ate').value);
 
     if (de >= ate){
-        alert('Campo "Do número" deve ser inferior ao campo "Aé o número". Verifique!');
+        alert('Campo "Do número" deve ser inferior ao campo "Até o número". Verifique!');
+        return;
+    }
+
+    if (quantidade > (ate - de + 1)){
+        alert('Coloque um sequência de números válidas, não existe esse intervalo de números entre o valor "Do número" até o valor de "Até o número". Verifique!');
         return;
     }
 
@@ -16,6 +21,7 @@ function sortear(){
 
         while(sorteados.includes(numero)) {
             numero = obterNumeroAleatorio(de, ate);
+            alert('Tentando obter número inédito');
         }
 
         sorteados.push(numero);
@@ -46,5 +52,6 @@ function reiniciar(){
     document.getElementById('de').value = '';
     document.getElementById('ate').value = '';
     document.getElementById('resultado').innerHTML = '<label class="texto__paragrafo">Números sorteados:  nenhum até agora</label>';
+    limparCampos();
     alterarStatusBotao();
 }
