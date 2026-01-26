@@ -4,7 +4,7 @@ Uma aplicação web simples para sortear números aleatórios dentro de um inter
 
 ## 🌐 Visualize o projeto:
 
-**[Ver Projeto Online](https://otavio-2507.github.io/Starbucks/)**)
+**[Ver Projeto Online](https://otavio-2507.github.io/Starbucks/)**
 
 ## 🛠️ Tecnologias Utilizadas
 
