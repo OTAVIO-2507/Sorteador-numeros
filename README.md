@@ -8,8 +8,6 @@ Aplicação web para sortear números aleatórios sem repetição dentro de um i
 
 [![Demonstração online](https://img.shields.io/badge/demonstra%C3%A7%C3%A3o-online-2EA44F?style=for-the-badge)](https://otavio-2507.github.io/Sorteador-numeros/)
 
-[![Prévia do sorteador](docs/preview.webp)](https://otavio-2507.github.io/Sorteador-numeros/)
-
 ## Visão geral
 
 O usuário define o intervalo (de/até) e a quantidade de números desejada; a aplicação valida as entradas (intervalo coerente e quantidade possível dentro do intervalo), sorteia números únicos e exibe o resultado com transição animada. Um botão de reinício restaura o formulário para um novo sorteio.
@@ -47,9 +45,7 @@ Sorteador-numeros/
 ├── index.html          Interface do sorteador
 ├── app.js              Lógica de sorteio e validação
 ├── style.css           Estilos da página
-├── img/                Imagens de fundo e ilustração
-└── docs/
-    └── preview.webp    Imagem de prévia do README
+└── img/                Imagens de fundo e ilustração
 ```
 
 ## Autor
