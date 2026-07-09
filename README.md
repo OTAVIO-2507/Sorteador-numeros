@@ -1,39 +1,59 @@
-# 🎲 Aplicação de Sorteio de Números
+# Sorteador de Números
 
-Uma aplicação web simples para sortear números aleatórios dentro de um intervalo definido. O projeto foi desenvolvido com HTML, CSS e JavaScript.
+Aplicação web para sortear números aleatórios sem repetição dentro de um intervalo definido pelo usuário, com validação de entradas e animação de transição no resultado.
 
-## 🌐 Visualize o projeto:
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**[Ver Projeto Online](https://otavio-2507.github.io/Sorteador-numeros/)**
+[![Demonstração online](https://img.shields.io/badge/demonstra%C3%A7%C3%A3o-online-2EA44F?style=for-the-badge)](https://otavio-2507.github.io/Sorteador-numeros/)
 
-## 🛠️ Tecnologias Utilizadas
+[![Prévia do sorteador](docs/preview.webp)](https://otavio-2507.github.io/Sorteador-numeros/)
 
-O projeto foi construído com as seguintes ferramentas e tecnologias:
-- **HTML5**: Estrutura semântica para a página
-- **CSS3**: Estilização e media queries para responsividade
-- **JavaScript**: Funcionalidade interativa para gerar números aleatórios, validação de campos e animações de transição
-- **Font Awesome**: Ícones (se utilizado)
-- **Google Fonts**: Fontes customizadas para uma melhor experiência visual
+## Visão geral
 
-## 🚀 Como Começar
+O usuário define o intervalo (de/até) e a quantidade de números desejada; a aplicação valida as entradas (intervalo coerente e quantidade possível dentro do intervalo), sorteia números únicos e exibe o resultado com transição animada. Um botão de reinício restaura o formulário para um novo sorteio.
 
-1. Clone ou baixe os arquivos do projeto para sua máquina local.
-2. Abra o arquivo `index.html` no seu navegador.
-3. Não é necessária configuração adicional — todas as dependências externas são carregadas via CDN.
+## Funcionalidades
 
-## 📦 Como Funciona
+- Sorteio de números únicos, sem repetição, dentro do intervalo definido
+- Validação das entradas: intervalo válido e quantidade compatível
+- Exibição animada do resultado do sorteio
+- Botão de reinício para configurar um novo sorteio
+- Interface responsiva com tipografia temática
 
-- O usuário pode definir um intervalo de números (De e Até), além da quantidade de números que deseja sortear.
-- O sistema irá gerar números aleatórios, garantindo que não haja repetições no sorteio.
-- A página exibe o resultado do sorteio e permite que o usuário reinicie o processo de sorteio facilmente.
+## Tecnologias
 
-## 🔄 Funcionalidades
+| Tecnologia | Aplicação no projeto |
+| --- | --- |
+| JavaScript (ES6+) | Sorteio sem repetição, validação e manipulação de DOM |
+| HTML5 | Estrutura do formulário e do resultado |
+| CSS3 | Estilização, responsividade e transições |
+| Google Fonts | Tipografia (Chakra Petch, Inter) |
 
-- Sorteio de Números Aleatórios: Gera números únicos dentro de um intervalo definido.
-- Validação de Entradas: Verifica se os valores inseridos são válidos.
-- Botão de Reiniciar: Permite ao usuário reiniciar o sorteio e limpar os campos de entrada.
-- Animações Suaves: Transições suaves ao interagir com a página.
+## Como executar
 
-## 📚 Estudo Alura
+```bash
+git clone https://github.com/OTAVIO-2507/Sorteador-numeros.git
+cd Sorteador-numeros
+```
 
-- Este projeto foi desenvolvido como parte de um estudo da Alura, focado em aprimorar minhas habilidades em JavaScript e desenvolvimento web e Lógica de Programação.
+Abra o arquivo `index.html` no navegador. A aplicação é totalmente client-side.
+
+## Estrutura do projeto
+
+```
+Sorteador-numeros/
+├── index.html          Interface do sorteador
+├── app.js              Lógica de sorteio e validação
+├── style.css           Estilos da página
+├── img/                Imagens de fundo e ilustração
+└── docs/
+    └── preview.webp    Imagem de prévia do README
+```
+
+## Autor
+
+**Otávio Oliveira** — Desenvolvedor Full Stack
+
+[GitHub](https://github.com/OTAVIO-2507) · [Portfólio](https://otavio-2507.github.io/Portifolio-v2/) · [E-mail](mailto:56otavio@gmail.com)
